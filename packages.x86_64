@@ -6,6 +6,8 @@ intel-ucode
 sof-firmware
 mkinitcpio
 mkinitcpio-archiso
+zsh
+grml-zsh-config
 
 # --- GPU / Rendering (the real fix, not the pixman workaround) ---
 mesa
