@@ -80,6 +80,7 @@ pv
 tmux
 screen
 fastfetch
+plocate
 
 # --- Custom Wayland & Sway Desktop Environment ---
 sway
@@ -97,6 +98,7 @@ xdg-utils
 brightnessctl
 grim
 slurp
+firefox
 
 # --- Audio Architecture (PipeWire) ---
 pipewire
