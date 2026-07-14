@@ -18,4 +18,4 @@ cp "$PKG_FILE" "$BACKUP_FILE"
 cat "$VM_FILE" >> "$PKG_FILE"
 
 echo "Building test ISO with VM guest tools included..."
-sudo mkarchiso -v -w /tmp/archiso-work -o "$PROFILE_DIR/out" "$PROFILE_DIR"
+sudo mkarchiso -v -w /var/tmp/archiso-work -o "$PROFILE_DIR/out" "$PROFILE_DIR"
