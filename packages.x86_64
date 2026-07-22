@@ -23,6 +23,8 @@ ntfs-3g
 dosfstools
 lvm2
 cryptsetup
+imv
+mpv
 
 # --- Install Toolchain (needed once, to put this on the HP 14s) ---
 arch-install-scripts

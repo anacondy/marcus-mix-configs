@@ -100,6 +100,7 @@ exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # --- Clipboard Persistence & History ---
 exec wl-paste --type text --watch cliphist store
 exec wl-paste --type image --watch cliphist store
+exec mkdir -p ~/Pictures
 bindsym $mod+v exec cliphist list | wofi --dmenu | cliphist decode | wl-copy
 
 # --- Global Media Controls ---
